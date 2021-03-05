@@ -1,10 +1,5 @@
 ECHO OFF
-docker version
-echo %errorlevel%
-ECHO Clean images, containers, and networks.
-ECHO Each clean will ask for confirmation.
-PAUSE
-ECHO Cleaning dangling images
+ECHO Clean images, containers, volumes and networks. Each clean will ask for confirmation.
 PAUSE
 docker image prune
 ECHO Cleaning dangling containers
@@ -16,5 +11,5 @@ docker volume prune
 ECHO Cleaning dangling networks
 PAUSE
 docker network prune
-ECHO All completed!!!
+ECHO All completed!!Will exit console now.
 PAUSE
