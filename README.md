@@ -2,4 +2,4 @@
 Helpful bat files to speed up docker processes and collection of useful docker commands
 
 # ScreenShot how it works
-![Alt text](https://user-images.githubusercontent.com/1622949/110065641-a6fb0580-7d95-11eb-804a-c1f491498297.png "")
+![Alt text](https://user-images.githubusercontent.com/1622949/110065977-749dd800-7d96-11eb-9b98-dbbcc0564146.png "")
