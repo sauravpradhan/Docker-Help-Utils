@@ -1,0 +1,25 @@
+Docker logs: docker logs -f <container-is>
+
+Build image: docker build -t <Image-Name> .
+
+Remove image: docker image rm -f <Image-Name>
+
+Docker save myimage:latest | gzip > myimage_latest.tar.gz
+
+Run in port: docker run -it -d -p 8080:80 <Image-Name>
+
+Tagging Docker Image: docker tag Image YOUR_DOCKERHUB_NAME/Image
+
+Pushing to hub: docker push YOUR_DOCKERHUB_NAME/firstimage
+
+Remove all stopped containers: docker container prune
+
+docker-compose down
+
+docker-compose up -d
+
+docker exec -it <container-is> sh -->run curl then
+
+docker volume create my-vol
+
+
