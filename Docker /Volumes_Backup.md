@@ -5,8 +5,7 @@ By utilizing Docker Compose, eOTA ensures that data is automatically preserved o
 1)	Creating backup:
 List the present volume by using command:
   a.	docker volume ls (A Docker volume will always be present, as it is automatically created by our launch script(compose yaml) during project initialization.)
-     Images/1.png
-<img src="Images/1.png"/>
+      <img src="/Images/1.png"/>
   b.	Make a folder named “backups” inside your project root – mkdir backups 
       Images/2.png
 
