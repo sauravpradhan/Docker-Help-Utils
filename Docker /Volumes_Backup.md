@@ -12,7 +12,7 @@ List the present volume by using command:
 
 
 c.	Create tar of the volume: 
-    docker run --rm -v <project-eota_newdocker_datastore>:/source -v ${PWD}/backups:/backup alpine sh -c "tar -czvf /backup/datastore_backup_$(Get-Date -Format   'yyyyMMdd').tar.gz -C /source ."
+    <ins> docker run --rm -v <project-eota_newdocker_datastore>:/source -v ${PWD}/backups:/backup alpine sh -c "tar -czvf /backup/datastore_backup_$(Get-Date -Format   'yyyyMMdd').tar.gz -C /source ." </ins>
   a.	Note: volume name “project-eota_newdocker_datastore” should be same listed on “docker volume ls “. 
   b.	It may sometime have a project prefix as shown below: project prefix (e.g., <project-eota_newdocker>)
   c.	Additionally: 'yyyyMMdd' in command can be modified 'yyyyMMdd_HHmm' to include hours and minutes of backup.
